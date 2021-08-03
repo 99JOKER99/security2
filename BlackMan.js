@@ -20,8 +20,8 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = ">";
-client.login("");
+const prefix = "A/";
+client.login("ODcyMDc3NDgzMjA4NDgyODM2.YQkncg.8sE2WccMTRj2OmLooKF7nkSF9PI");
 client.on("ready", async () => {
   console.log(`Logged in as ${client.user.username}!`);
   client.user.setStatus("idle");
@@ -64,7 +64,7 @@ client.on("message", async message => {
 ━──╮•╭──━
 
 __ [Vote](link top gg) __  
-__ [invite](https://discord.com/api/oauth2/authorize?client_id=829039166141890631&permissions=8&scope=bot) __  __ [Support](https://discord.gg/kxFvrqV9Qu) __
+__ [invite](https://discord.com/api/oauth2/authorize?client_id=872077483208482836&permissions=8&scope=bot) __  __ [Support](https://discord.gg/dQMVjRgqxV) __
 
 `);
     message.channel.send(help);
